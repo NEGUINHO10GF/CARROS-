@@ -1,30 +1,50 @@
-/* Estilos para o Cabeçalho */
+/* ESTILIZAÇÃO GERAL DO CORPO */
+body {
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo suave para a página */
+    margin: 0; /* Remove a margem padrão do navegador */
+    padding: 0;
+}
+
+/* ESTILIZAÇÃO DO CABEÇALHO */
 header {
-    background-color: #A52A2A; /* Um tom de marrom/vermelho escuro para remeter a carros clássicos */
+    background-color: #A00000; /* Vermelho escuro, remetendo a velocidade/potência */
     color: white;
-    padding: 25px;
+    padding: 30px; /* Mais espaçamento para destacar */
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
 }
 
 header h1 {
-    margin-bottom: 5px; /* Ajusta o espaçamento do título */
+    margin-top: 0; /* Remove margem superior do título */
+    font-size: 2.5em; /* Título maior */
 }
 
-/* Estilos para o Corpo da Página (Seção Principal) */
+header p {
+    font-style: italic;
+}
+
+/* ESTILIZAÇÃO DO CORPO DA PÁGINA (SECTION) */
 section {
-    margin: 30px 2cm; /* Aumentei um pouco a margem para um visual mais limpo */
-    font-size: 18px;
-    color: #333; /* Cinza escuro para melhor legibilidade */
-    line-height: 1.6; /* Melhora a leitura do parágrafo */
+    margin: 20px 1.5cm; /* Margem de 1.5cm nas laterais */
+    padding: 20px;
+    background-color: white; /* Fundo branco para o conteúdo */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
-/* Estilos para o Rodapé */
+section p {
+    font-size: 17px;
+    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+    color: #333; /* Cor do texto um pouco mais suave que preto puro */
+}
+
+/* ESTILIZAÇÃO DO RODAPÉ */
 footer {
-    background-color: #36454F; /* Um tom de cinza chumbo, cor automotiva */
-    color: white;
+    background-color: #333; /* Cinza escuro, como asfalto ou pneu */
+    color: #ffd700; /* Amarelo/Dourado, para um toque "Hot Rod" */
     padding: 15px;
     text-align: center;
-    margin: 40px 2cm 0 2cm; /* Adiciona uma margem superior para separação */
     font-size: 14px;
-    border-radius: 5px 5px 0 0; /* Borda levemente arredondada no topo */
+    margin-top: 20px; /* Espaço entre o corpo e o rodapé */
 }
