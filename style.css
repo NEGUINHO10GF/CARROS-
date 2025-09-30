@@ -1,0 +1,30 @@
+/* Estilos para o Cabeçalho */
+header {
+    background-color: #A52A2A; /* Um tom de marrom/vermelho escuro para remeter a carros clássicos */
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px; /* Ajusta o espaçamento do título */
+}
+
+/* Estilos para o Corpo da Página (Seção Principal) */
+section {
+    margin: 30px 2cm; /* Aumentei um pouco a margem para um visual mais limpo */
+    font-size: 18px;
+    color: #333; /* Cinza escuro para melhor legibilidade */
+    line-height: 1.6; /* Melhora a leitura do parágrafo */
+}
+
+/* Estilos para o Rodapé */
+footer {
+    background-color: #36454F; /* Um tom de cinza chumbo, cor automotiva */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 40px 2cm 0 2cm; /* Adiciona uma margem superior para separação */
+    font-size: 14px;
+    border-radius: 5px 5px 0 0; /* Borda levemente arredondada no topo */
+}
