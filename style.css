@@ -1,50 +1,48 @@
-/* ESTILIZAÇÃO GERAL DO CORPO */
+/* Configurações básicas para remover margens e facilitar a estilização */
 body {
-    font-family: Arial, sans-serif; /* Define uma fonte padrão */
-    background-color: #f4f4f4; /* Cor de fundo suave para a página */
-    margin: 0; /* Remove a margem padrão do navegador */
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove a margem padrão do body */
     padding: 0;
+    background-color: #f4f4f4; /* Fundo levemente cinza */
 }
 
 /* ESTILIZAÇÃO DO CABEÇALHO */
 header {
-    background-color: #A00000; /* Vermelho escuro, remetendo a velocidade/potência */
+    background-color: #333; /* Cinza escuro/preto para um toque automotivo */
     color: white;
-    padding: 30px; /* Mais espaçamento para destacar */
+    padding: 30px; /* Mais padding para destaque */
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    border-bottom: 5px solid #FF4500; /* Linha laranja (cor de esportivo) na parte inferior */
 }
 
 header h1 {
-    margin-top: 0; /* Remove margem superior do título */
-    font-size: 2.5em; /* Título maior */
+    margin-top: 0; /* Remove margem superior padrão */
+    font-size: 2.5em; /* Aumenta o título */
 }
 
-header p {
-    font-style: italic;
-}
-
-/* ESTILIZAÇÃO DO CORPO DA PÁGINA (SECTION) */
+/* ESTILIZAÇÃO DO CORPO DA PÁGINA (SEÇÃO) */
 section {
-    margin: 20px 1.5cm; /* Margem de 1.5cm nas laterais */
+    background-color: white; /* Fundo branco para o texto */
     padding: 20px;
-    background-color: white; /* Fundo branco para o conteúdo */
-    border-radius: 8px; /* Cantos arredondados */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    margin: 20px 1.5cm; /* Margem de 1.5cm nas laterais */
+    font-size: 18px; /* Fonte um pouco maior para melhor leitura */
+    color: #222; /* Cor do texto preta mais suave */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 section p {
-    font-size: 17px;
-    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
-    color: #333; /* Cor do texto um pouco mais suave que preto puro */
+    margin-bottom: 15px;
 }
 
 /* ESTILIZAÇÃO DO RODAPÉ */
 footer {
-    background-color: #333; /* Cinza escuro, como asfalto ou pneu */
-    color: #ffd700; /* Amarelo/Dourado, para um toque "Hot Rod" */
-    padding: 15px;
+    background-color: #1a1a1a; /* Preto mais forte para o rodapé */
+    color: white;
+    padding: 15px; /* Mais espaçamento */
     text-align: center;
+    margin: 20px 1.5cm 0 1.5cm; /* Margens e 0 na parte inferior */
     font-size: 14px;
-    margin-top: 20px; /* Espaço entre o corpo e o rodapé */
+    border-top: 3px solid #FF4500; /* Linha laranja no topo */
 }
